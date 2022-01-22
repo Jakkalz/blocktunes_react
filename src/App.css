@@ -129,7 +129,7 @@ main .overview .overlay{
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   flex-direction: column;
   text-align: right;
   padding: 50px;
@@ -150,7 +150,7 @@ main .overview p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   background-image: url('./images/neon-glitch-blue.png');
   background-repeat: no-repeat;
   background-size: 50vw auto;

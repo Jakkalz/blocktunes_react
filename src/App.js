@@ -1,6 +1,5 @@
-import ImgFigure from "./components/ImgFigure";
 import SocialIcon from "./components/SocialIcon";
-import { gsap, RoughEase } from 'gsap';
+import { gsap } from 'gsap';
 import { useEffect } from "react";
 
 import "./App.css";
