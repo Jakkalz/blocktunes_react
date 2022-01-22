@@ -1,38 +1,307 @@
-.App {
-  text-align: center;
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color: #b456b4;
+  --secondary-color: #fd5e53;
+  --tertiary-color: #EFCA46;
+  --primary-font-color: white;
+  --secondary-font-color: #b456b4;
+  --primary-font-family: 'Geo';
+}
+  
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Geo';
+  background-color: rgb(0, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  margin: 0;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hidden {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 0;
+  padding: 0 30px;
+  color: var(--primary-font-color);
+  /*border-bottom: 1px solid var(--secondary-color);*/
+}
+
+header .logo-container, header .contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .contact-container p {
+  margin-right: 1rem;
+  color: var(--primary-font-color);
+}
+
+main {
+  margin-top: 80px;
+}
+
+main .splash {
+  /*border-bottom: 2px solid var(--secondary-color);*/
+  background-image: url('./images/neon_box_splash.png');
+  background-size: auto 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+main .splash .overlay{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(254,254,254,0) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(255,255,255,0) 100%);
+}
+
+main .splash h1 {
+  color: var(--primary-font-color);
+  margin: 0;
+  font-size: 120px;
+  font-weight: normal;
+  font-family: var(--primary-font-family);
+  text-align: center;
+}
+main .splash p {
+  color: var(--primary-font-color);
+  font-size: 48px;
+  text-align: center;
+}
+
+main .splash .music-samples {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+}
+
+main .splash .music-samples audio{
+  display:none;
+}
+
+main .splash .music-samples img {
+  margin: 0 20px;
+  cursor:pointer;
+}
+
+
+
+main .overview {
+  background-image: url('./images/tetris-splash.svg');
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  height: 100vh;
+  color: var(--primary-font-color);
+ /* border-bottom: 2px solid var(--secondary-color);*/
+}
+
+main .overview .overlay{
+  background: linear-gradient(180deg, rgba(254,254,254,0) 0%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.7) 60%, rgba(255,255,255,0) 100%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  flex-direction: column;
+  text-align: right;
+  padding: 50px;
+}
+
+main .overview h2 {
+  font-size: 48px;
+  margin: 0;
+}
+
+main .overview p {
+  font-size: 36px;
+  color: var(--primary-color);
+}
+
+.buyer-creator-info {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-image: url('./images/neon-glitch-blue.png');
+  background-repeat: no-repeat;
+  background-size: 50vw auto;
+  background-position: right;
+}
+
+.buyer-creator-info > div{  
+  padding: 20px 40px;
+  margin: 0 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  width: 50vw;
+}
+
+.buyer-creator-info h3 {
+  font-size: 60px;
+  color: rgb(255, 193, 250);
+  margin: 0;
+}
+
+.buyer-creator-info .collectors-container h3 {
+  color: #8cbbf8;
+}
+
+.buyer-creator-info .musicians-container h3 {
+  color: #009e47
+}
+
+.buyer-creator-info p {
+  font-size: 26px;
+  margin: 40px 0;
+}
+
+.buyer-creator-info ul {
+  padding: 0;
+}
+
+.buyer-creator-info li {
+  list-style-type: none;
+}
+
+.about-the-team .overlay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+ }
+
+.about-the-team {
+  background: url('./images/team-neon-back.png');
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  background-size: 50vw auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-the-team .future-plans {
+  padding: 20px 40px 20px 0;
+  width: 50vw;
+
+}
+
+.about-the-team q, caption, figcaption  {
+  color: var(--primary-font-color);
+  font-size: 16px;
+  word-break: break-all;
+}
+
+.about-the-team h4 {
+  color: rgb(255, 193, 250);
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.about-the-team figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-the-team figcaption {
+  text-align: center;
+}
+
+.about-the-team .job-title {
+  color: var(--primary-color);
+}
+
+.about-the-team p {
+  text-align: right;
+  margin: 20px 0;
+  font-size: 25px;
+  color: rgb(255, 193, 250);
+}
+
+.about-the-team h5 {
+  font-size: 50px;
+  color: var(--secondary-color);
+  margin: 20px 0;
+  text-align: center;
+}
+
+.contributors-gallery{
+  height: 100vh;
+}
+
+.contributors-gallery h2 {
+  color: var(--primary-color);
+  font-size: 50px;
+  text-align: center;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  max-width: 100vw;
+  grid-row-gap: 1rem;
+  grid-auto-rows: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-gallery img {
+  width: calc(90vw / 6);
+  height: auto;
+  border-radius: 20px
+  
+}
+
+.image-gallery {
+  font-size: 12px;
+  text-align: center;
+}
+
+.image-gallery figure {
+  margin: 0;
+}
+
+footer {
+  color: var(--primary-font-color);
+  margin: 0;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
 }
