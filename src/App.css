@@ -36,7 +36,7 @@ header {
   position: fixed;
   z-index: 10;
   top: 0;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,13 +71,13 @@ main .splash {
   height: 100vh;
 }
 
+
 main .splash .overlay{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(180deg, rgba(254,254,254,0) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(255,255,255,0) 100%);
 }
 
@@ -93,6 +93,10 @@ main .splash p {
   color: var(--primary-font-color);
   font-size: 48px;
   text-align: center;
+}
+
+#whitelist-flash {
+  visibility: hidden;
 }
 
 main .splash .music-samples {
@@ -165,6 +169,7 @@ main .overview p {
   width: 50vw;
 }
 
+
 .buyer-creator-info h3 {
   font-size: 60px;
   color: rgb(255, 193, 250);
@@ -190,77 +195,6 @@ main .overview p {
 
 .buyer-creator-info li {
   list-style-type: none;
-}
-
-.about-the-team .overlay {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  width: 100%;
- }
-
-.about-the-team {
-  background: url('./images/team-neon-back.png');
-  background-repeat: no-repeat;
-  background-position-x: left;
-  background-position-y: center;
-  background-size: 50vw auto;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-the-team .future-plans {
-  padding: 20px 40px 20px 0;
-  width: 50vw;
-
-}
-
-.about-the-team q, caption, figcaption  {
-  color: var(--primary-font-color);
-  font-size: 16px;
-  word-break: break-all;
-}
-
-.about-the-team h4 {
-  color: rgb(255, 193, 250);
-  font-size: 50px;
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-.about-the-team figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.about-the-team figcaption {
-  text-align: center;
-}
-
-.about-the-team .job-title {
-  color: var(--primary-color);
-}
-
-.about-the-team p {
-  text-align: right;
-  margin: 20px 0;
-  font-size: 25px;
-  color: rgb(255, 193, 250);
-}
-
-.about-the-team h5 {
-  font-size: 50px;
-  color: var(--secondary-color);
-  margin: 20px 0;
-  text-align: center;
-}
-
-.contributors-gallery{
-  height: 100vh;
 }
 
 .contributors-gallery h2 {
@@ -295,6 +229,12 @@ main .overview p {
   margin: 0;
 }
 
+.image-gallery figcaption {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+
 footer {
   color: var(--primary-font-color);
   margin: 0;
@@ -304,4 +244,80 @@ footer {
 footer p {
   margin: 0;
   text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+  * {
+    text-align: center;
+  }
+  main .splash {
+    background-size: 400px auto;
+    height: unset;
+  }
+
+  main .splash h1{
+    font-size: 36px;
+  }
+
+  main .splash p {
+    font-size: 30px;
+  }
+
+  main .splash .overlay {
+    height: 60vh;
+  }
+
+  .buyer-creator-info > div{
+    width: 100vw;
+    margin: 0;
+  }
+
+  .buyer-creator-info {
+    background: none;
+    height: unset;
+  }
+
+  main .overview h2 {
+    font-size: 30px;
+  }
+
+  main .overview {
+    background: none;
+    height: unset;
+  }
+
+  main .overview .overlay {
+    align-items: center;
+  }
+
+  main .overview p {
+    font-size: 28px;
+  }
+
+  .buyer-creator-info h3 {
+    font-size: 38px;
+  }
+  
+  .contributors-gallery h2 {
+    font-size: 36px;
+  }
+
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100vw;
+    grid-row-gap: 1rem;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-gallery img {
+    width: calc(90vw / 4);
+    height: auto;
+    border-radius: 20px
+    
+  }
+  
 }

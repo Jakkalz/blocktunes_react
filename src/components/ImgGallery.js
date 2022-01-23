@@ -66,10 +66,146 @@ function ImgGallery(){
             tag: 'Violin',
             imgSrc: require('../images/team/alex.jpeg')          
         },
+        {
+            name: 'Rylan',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Jake',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Rachel',
+            tag: 'Vocals',
+            imgSrc: require('../images/team/phoebe.jpeg')          
+        },
+        {
+            name: 'Ricardo',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Robert',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Daniel',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Harry',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Louise',
+            tag: 'Vocals',
+            imgSrc: require('../images/team/phoebe.jpeg')          
+        },
+        {
+            name: 'Ryan B',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Bobby',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Michael',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Mike',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Harriet',
+            tag: 'Vocals',
+            imgSrc: require('../images/team/phoebe.jpeg')          
+        },
+        {
+            name: 'Laurence',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Paul',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Owen',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Bryan',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Frances',
+            tag: 'Vocals',
+            imgSrc: require('../images/team/phoebe.jpeg')          
+        },
+        {
+            name: 'Kai',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Juri',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Evan',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Will',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Akexandra',
+            tag: 'Vocals',
+            imgSrc: require('../images/team/phoebe.jpeg')          
+        },
+        {
+            name: 'Adam',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Noah',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        {
+            name: 'Liam',
+            tag: 'Guitarist',
+            imgSrc: require('../images/team/marco.jpeg')          
+        },
+        {
+            name: 'Marvin',
+            tag: 'Violin',
+            imgSrc: require('../images/team/alex.jpeg')          
+        },
+        
     ]
 
     return (
-        <section class="image-gallery">
+        <section className="image-gallery">
             {contributors.map(({name, tag, imgSrc}) => {
                 return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
             })}
