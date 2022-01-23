@@ -266,6 +266,7 @@ footer p {
 
   main .splash .overlay {
     height: 60vh;
+    background: none;
   }
 
   .buyer-creator-info > div{
@@ -289,6 +290,7 @@ footer p {
 
   main .overview .overlay {
     align-items: center;
+    background: none;
   }
 
   main .overview p {
