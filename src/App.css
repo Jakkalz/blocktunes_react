@@ -323,9 +323,9 @@ footer p {
     -o-transition: opacity 0.5s ease-out; 
     -webkit-transition: opacity 0.5s ease-out; 
     -ms-transition: opacity 0.5s ease-out; 
-    animation: movieSlideshow 10s linear infinite;
-    -webkit-animation: moveSlideshow 10s linear infinite;
-    -moz-animation:    moveSlideshow 10s linear infinite;
+    animation: movieSlideshow 15s linear infinite;
+    -webkit-animation: moveSlideshow 15s linear infinite;
+    -moz-animation:    moveSlideshow 15s linear infinite;
   }
   
   @keyframes moveSlideshow {
