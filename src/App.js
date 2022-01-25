@@ -12,11 +12,8 @@ function App() {
       const whitelist = document.getElementById('whitelist-flash');
       whitelist.style.visibility = 'visible';
     }, 2900)
-    gsap.fromTo("#whitelist-flash", {opacity: 1, x:0, scale: 1.4}, {opacity:0, x: 100, scale:1.2, duration: 0.3, delay: 3});
-    gsap.fromTo("#whitelist-flash", {opacity: 1, x:0, scale: 1.4}, {opacity:0.5, x: -100, scale: 1, duration: 0.1, delay: 3.2});
-    gsap.fromTo("#whitelist-flash", {opacity: 1, x:0}, {opacity:0.2, duration: 0.35, delay: 3.5});
-    gsap.fromTo("#whitelist-flash", {opacity: 1, x:0, scale: 1.5}, {opacity:0.8, scale: 1, duration: 0.1, delay: 3.8});
-    gsap.fromTo("#whitelist-flash", {opacity: 1}, {opacity:0, duration: 1, x: 0, delay: 4});
+    gsap.fromTo("#whitelist-flash", {opacity: 0}, {opacity:1, duration: 0.5, delay: 2.7});
+    gsap.fromTo("#whitelist-flash", {opacity: 1}, {opacity:0, duration: 0.5, x: 0, delay: 6});
   }
 
   useEffect(() => {
@@ -99,7 +96,6 @@ function App() {
           </div>
         </section>
         <section className="contributors-gallery">
-          <h2>Contributors</h2>
           <ImgGallery />
         </section>  
       </main>

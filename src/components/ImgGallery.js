@@ -204,10 +204,37 @@ function ImgGallery(){
         
     ]
 
+    const row1 = contributors.slice(0, 10);
+    const row2 = contributors.slice(10, 20);
+    const row3 = contributors.slice(20, 30);
+    const row4 = contributors.slice(30, 40);
+    
+
     return (
         <section className="image-gallery">
-            {contributors.map(({name, tag, imgSrc}) => {
-                return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
+            {row1.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+            })}
+             {row1.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+            })}
+             {row2.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+            })}
+             {row2.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+            })}
+             {row3.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+            })}
+             {row3.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+            })}
+             {row4.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+            })}
+             {row4.map(({name, tag, imgSrc}) => {
+                return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
             })}
         </section>
     )
