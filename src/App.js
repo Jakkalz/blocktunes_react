@@ -24,83 +24,45 @@ function App() {
     <div>
       <header>
         <div className="logo-container">
-          <img alt="" />
-          <p>blocktunes</p>
+          <img alt="logo" src={require("./images/logo.svg").default} height="15px" width="auto" />
         </div>
         <div className="contact-container">
-          <SocialIcon link={"https://twitter.com/blocktunesnft"} imgSrc={require("./images/discord-logo.png")} />
-          <SocialIcon link={"https://discord.gg/3xuHJBEV"} imgSrc={require("./images/twitter-logo.png")} />
+          <SocialIcon link={"https://twitter.com/blocktunesnft"} imgSrc={require("./images/instagram.svg").default} />
+          <SocialIcon link={""} imgSrc={require("./images/twitter.svg").default} />
         </div>
       </header>
       <main>
         <section className="splash">
           <div className="overlay">
             <h1>The soundtrack for web3</h1>
-            <p id="whitelist-flash">The white list has begun.</p>
+            <p id="whitelist-flash">The whitelist has begun.</p>
           </div>
         </section>
-        <section className="overview">
+        <section className="overview one">
           <div className="overlay">
-            <h2>A procedurally generated music NFT collection.</h2>
-            <h2>The first of its kind.</h2>
-            <p>
-              Leveraging blockchain technology to create a new model for
-              consuming and producing music.
-            </p>
-          </div>
+          
+          <p>The most extensive music NFT to date ⚡</p>
+
+          <p>And a new model for quality music that can reward everyone involved.</p>
+
+          <p>The collection is formed of musical “building blocks” - instrumentals, vocals, drums etc, that can be pulled together by bespoke music logic to create a limited collection of unique tracks</p>
+         </div>
         </section>
-        <section className="buyer-creator-info">
-          <div className="collectors-container">
-            <h3>Collectors</h3>
-            <ul>
-              <li>
-                <p>
-                  Own the copyright and publishing rights to the master of your
-                  track.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Remix, add to your metaverse identity or license for media and
-                  ads - you choose how to use the NFT.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Be part of the genesis NFT collection that will provide the
-                  foundation block that the future of Blocktunes will be built
-                  upon.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div className="musicians-container">
-            <h3>Musicians</h3>
-            <ul>
-              <li>
-                <p>
-                  A powerful new music platform - be in the right place at the
-                  right time.
-                </p>
-              </li>
-              <li>
-                <p>
-                  Receive your share of 50% of the initial sale, based upon the
-                  amount of music stems you have contributed.{" "}
-                </p>
-              </li>
-              <li>
-                <p>Receive royalties from secondary sales.</p>
-              </li>
-            </ul>
+        <section className="overview two">
+          <div className="overlay">
+          <p>Over 30 top musicians have been busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
+
+          <p>This is the first collection of its kind in the NFT space…. So let’s set a precedent and write some history 😎</p>
           </div>
         </section>
         <section className="contributors-gallery">
+          <div class="overlay">
+          </div>
           <ImgGallery />
         </section>  
       </main>
       <footer>
-        <p>blocktunes</p>
+        <img alt="logo" src={require("./images/logo.svg").default} height="15px" width="auto" />
       </footer>
     </div>
   );
