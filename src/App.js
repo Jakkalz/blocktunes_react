@@ -12,8 +12,8 @@ function App() {
       const whitelist = document.getElementById('whitelist-flash');
       whitelist.style.visibility = 'visible';
     }, 2500)
-    gsap.fromTo("#whitelist-flash", {opacity: 0}, {opacity:1, duration: 0.5, x: 0, delay: 2.5})
-    gsap.fromTo("#whitelist-flash", {opacity: 1}, {opacity:0, duration: 0.5, x: 0, delay: 6});
+    gsap.fromTo("#whitelist-flash", {opacity: 0}, {opacity:1, duration: 1, x: 0, delay: 2.5})
+    gsap.fromTo("#whitelist-flash", {opacity: 1}, {opacity:0, duration: 1, x: 0, delay: 6});
   }
 
   const playAudio = (e) => {
@@ -91,7 +91,7 @@ function App() {
           <div className="overlay">
           <p>Over 30 top musicians have been busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
 
-          <p class="primary">This is the first collection of its kind in the NFT space... so let’s set a precedent and write some history 😎</p>
+          <p class="secondary">This is the first collection of its kind in the NFT space... so let’s set a precedent and write some history 😎</p>
           </div>
         </section>
         <section className="contributors-gallery">

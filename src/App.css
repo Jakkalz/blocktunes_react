@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary-color: #b456b4;
+  --primary-color: #f391f3;
   --secondary-color: #fd5e53;
   --tertiary-color: #EFCA46;
   --primary-font-color: white;
@@ -27,6 +27,10 @@ p {
 }
 
 p.primary {
+  color: var(--primary-color);
+}
+
+p.secondary {
   color: #46dbef;
 }
 
