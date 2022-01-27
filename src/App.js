@@ -12,6 +12,7 @@ function App() {
       const whitelist = document.getElementById('whitelist-flash');
       whitelist.style.visibility = 'visible';
     }, 2500)
+    gsap.fromTo("#whitelist-flash", {opacity: 0}, {opacity:1, duration: 0.5, x: 0, delay: 2.5})
     gsap.fromTo("#whitelist-flash", {opacity: 1}, {opacity:0, duration: 0.5, x: 0, delay: 6});
   }
 

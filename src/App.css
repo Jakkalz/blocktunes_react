@@ -27,7 +27,7 @@ p {
 }
 
 p.primary {
-  color: var(--tertiary-color)
+  color: #46dbef;
 }
 
 .hidden {
@@ -249,15 +249,15 @@ main .examples .audio {
 }
 
 .image-galleries {
-  width: 100vw;
+  
   padding: 30px;
 }
 
 .image-gallery {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  max-width: 100vw;
-  grid-gap: 2rem;
+ 
+  grid-gap: 0.5rem;
   grid-auto-rows: auto;
   justify-content: start;
   align-items: center;
@@ -299,7 +299,6 @@ footer p {
     height: calc(90vh / 6);
     width: auto;
     border-radius: 20px
-    
   }
 
   .image-gallery :nth-child(11){
@@ -338,9 +337,18 @@ footer p {
   * {
     text-align: center;
   }
+
+  main .examples .audio {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
   main .splash {
     background-size: 400px auto;
-    height: 100vh;
+    height: 80vh;
   }
 
   main .splash h1{
@@ -352,7 +360,7 @@ footer p {
   }
 
   main .splash .overlay {
-    height: 100vh;
+    height: 80vh;
     background: none;
   }
 
@@ -411,9 +419,9 @@ footer p {
     -o-transition: opacity 0.5s ease-out; 
     -webkit-transition: opacity 0.5s ease-out; 
     -ms-transition: opacity 0.5s ease-out; 
-    animation: movieSlideshow 20s linear infinite;
-    -webkit-animation: moveSlideshow 20s linear infinite;
-    -moz-animation:    moveSlideshow 20s linear infinite;
+    animation: movieSlideshow 30s linear infinite;
+    -webkit-animation: moveSlideshow 30s linear infinite;
+    -moz-animation:    moveSlideshow 30s linear infinite;
   }
 
   .image-gallery:nth-child(even) {
@@ -422,9 +430,9 @@ footer p {
     -o-transition: opacity 0.5s ease-out; 
     -webkit-transition: opacity 0.5s ease-out; 
     -ms-transition: opacity 0.5s ease-out; 
-    animation: movieSlideshowRight 20s linear infinite;
-    -webkit-animation: moveSlideshowRight 20s linear infinite;
-    -moz-animation:    moveSlideshowRight 20s linear infinite;
+    animation: movieSlideshowRight 30s linear infinite;
+    -webkit-animation: moveSlideshowRight 30s linear infinite;
+    -moz-animation:    moveSlideshowRight 30s linear infinite;
   }
 
   .image-gallery {
