@@ -159,7 +159,7 @@ function ImgGallery(){
         {
             name: 'Kai',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/marco.jpeg')          
+            imgSrc: require('../images/team/1.jpeg')          
         },
         {
             name: 'Juri',
