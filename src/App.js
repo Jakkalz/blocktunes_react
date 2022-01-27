@@ -75,7 +75,7 @@ function App() {
               </audio>
               <audio id="audio-3" controls class="hidden" src={require("./music/track-3.mp3")}>
               </audio>            
-              <audio id="audio-3" controls class="hidden" src={require("./music/track-3.mp3")}>
+              <audio id="audio-4" controls class="hidden" src={require("./music/track-3.mp3")}>
               </audio>            
               <img onClick={playAudio} data-audioid="audio-1" src={require('./images/play_green.svg').default} className="play" alt="play"/>
               <img onClick={pauseAudio} data-audioid="audio-1" src={require('./images/pause_green.svg').default} className="pause hidden" alt="pause"/>
