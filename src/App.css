@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary-color: #f391f3;
+  --primary-color: #d894d8;
   --secondary-color: #fd5e53;
   --tertiary-color: #EFCA46;
   --primary-font-color: white;
@@ -31,7 +31,11 @@ p.primary {
 }
 
 p.secondary {
-  color: #46dbef;
+  color: #86dae6;
+}
+
+p.tertiary {
+  color: #9df3c4;
 }
 
 .hidden {
@@ -128,12 +132,17 @@ main .splash .music-samples img {
 
 main .overview.one {
   background-image: url('./images/neon-glitch-blue.png');
-  background-size: 45vw auto;
+  background-size: 30vw auto;
+  background-position-y: top;
+  background-position-x: right;
 }
 
 main .overview.two {
   background-image: url('./images/team-neon-back.png');
-  background-size: 55vw auto;
+
+  background-size: 35vw auto;
+  background-position-y: bottom;
+  background-position-x: left;
 }
 
 main .overview {
