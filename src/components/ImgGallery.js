@@ -30,7 +30,7 @@ function ImgGallery(){
         {
             name: 'John',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/7.png')          
+            imgSrc: require('../images/team/7.jpg')          
         },
         {
             name: 'Sally',
@@ -44,7 +44,7 @@ function ImgGallery(){
         },  {
             name: 'Amy',
             tag: 'Vocals',
-            imgSrc: require('../images/team/10.png')          
+            imgSrc: require('../images/team/10.jpg')          
         },
         {
             name: 'Jeremy',
@@ -104,7 +104,7 @@ function ImgGallery(){
         {
             name: 'Louise',
             tag: 'Vocals',
-            imgSrc: require('../images/team/22.png')          
+            imgSrc: require('../images/team/22.jpg')          
         },
         {
             name: 'Ryan B',
@@ -134,7 +134,7 @@ function ImgGallery(){
         {
             name: 'Laurence',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/28.png')          
+            imgSrc: require('../images/team/28.jpg')          
         },
         {
             name: 'Paul',
@@ -144,7 +144,7 @@ function ImgGallery(){
         {
             name: 'Owen',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/30.png')          
+            imgSrc: require('../images/team/30.jpg')          
         },
         {
             name: 'Bryan',
@@ -159,7 +159,7 @@ function ImgGallery(){
         {
             name: 'Kai',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/1.jpeg')          
+            imgSrc: require('../images/team/1.jpg')          
         },
         {
             name: 'Juri',
