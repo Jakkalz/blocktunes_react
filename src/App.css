@@ -11,7 +11,7 @@
   --secondary-font-color: #b456b4;
   --primary-font-family: 'Geo';
 }
-  
+
 
 
 body {
@@ -24,6 +24,10 @@ body {
 p {
   margin: 0;
   color: white;
+}
+
+p.primary {
+  color: var(--tertiary-color)
 }
 
 .hidden {
@@ -47,6 +51,10 @@ header {
   /*border-bottom: 1px solid var(--secondary-color);*/
 }
 
+header .logo-container p, footer p{
+  font-size: 20px
+}
+
 header .logo-container, header .contact-container {
   display: flex;
   justify-content: space-between;
@@ -63,7 +71,7 @@ main {
 
 main .splash {
   /*border-bottom: 2px solid var(--secondary-color);*/
-  background-image: url('./images/neon_box_splash.png');
+  background-image: url('./images/neon_box_splash.jpeg');
   background-size: auto 800px;
   background-repeat: no-repeat;
   background-position: center;
@@ -153,8 +161,30 @@ main .overview h2 {
 
 main .overview p {
   font-size: 48px;
-  color: var(--primary-font-color);
   margin: 2rem;
+}
+
+main .examples {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main .examples img {
+  margin: 2rem;
+}
+
+main .examples h2 {
+  color: white;
+  font-size: 70px;
+}
+
+main .examples .audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buyer-creator-info {
@@ -266,7 +296,7 @@ footer p {
 
 @media screen and (min-width: 800px) {
   .image-gallery img {
-    height: calc(90vh / 6.5);
+    height: calc(90vh / 6);
     width: auto;
     border-radius: 20px
     
@@ -310,7 +340,7 @@ footer p {
   }
   main .splash {
     background-size: 400px auto;
-    height: unset;
+    height: 100vh;
   }
 
   main .splash h1{
@@ -322,7 +352,7 @@ footer p {
   }
 
   main .splash .overlay {
-    height: 60vh;
+    height: 100vh;
     background: none;
   }
 
@@ -375,16 +405,7 @@ footer p {
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6483544101234244) 10%, rgba(0,0,0,0) 20%, rgba(0,0,0,0.020903429731267464) 50%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.65) 90%, rgba(0,0,0,1) 100%);  
   }
 
-  .image-gallery {
-    display: grid;
-    grid-template-columns: repeat(20, 1fr);
-    max-width: unset;
-    padding: 0;
-    margin: 0;
-    grid-row-gap: 1rem;
-    justify-content: start;
-    align-items: center;
-    position: relative;
+  .image-gallery:nth-child(odd) {
     transition: opacity 0.5 ease-out;
     -moz-transition:  opacity 0.5s ease-out; 
     -o-transition: opacity 0.5s ease-out; 
@@ -395,8 +416,32 @@ footer p {
     -moz-animation:    moveSlideshow 20s linear infinite;
   }
 
+  .image-gallery:nth-child(even) {
+    transition: opacity 0.5 ease-out;
+    -moz-transition:  opacity 0.5s ease-out; 
+    -o-transition: opacity 0.5s ease-out; 
+    -webkit-transition: opacity 0.5s ease-out; 
+    -ms-transition: opacity 0.5s ease-out; 
+    animation: movieSlideshowRight 20s linear infinite;
+    -webkit-animation: moveSlideshowRight 20s linear infinite;
+    -moz-animation:    moveSlideshowRight 20s linear infinite;
+  }
+
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    max-width: unset;
+    padding: 0;
+    margin: 0;
+    grid-gap: 0.5rem;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+
+  }
+
   .image-gallery img {
-    width: calc(90vw / 6);
+    width: calc(90vw / 3);
     height: auto;
     border-radius: 20px
     
@@ -404,16 +449,32 @@ footer p {
   
   @keyframes moveSlideshow {
     0% { left: 0; }
-    100% { left: calc((90vw / 3.87) * -10); }
+    100% { left: calc((90vw / 3) * -10 - 5rem); }
   }
 
   @-webkit-keyframes moveSlideshow {
     0% { left: 0; }
-    100% { left: calc((90vw / 3.87) * -10); }
+    100% { left: calc((90vw / 3) * -10 - 5rem); }
   }
   @-moz-keyframes moveSlideshow {
       0% { left: 0; }
-      100% { left: calc((90vw / 3.87) * -10); }
+      100% { left: calc((90vw / 3) * -10 - 5rem); }
   }
+
+  
+  @keyframes moveSlideshowRight {
+    0% { left: calc((90vw / 3) * -10 - 5rem ); }
+    100% { left: 0; }
+  }
+
+  @-webkit-keyframes moveSlideshowRight {
+    0% { left: calc((90vw / 3) * -10 - 5rem); }
+    100% { left: 0; }
+  }
+  @-moz-keyframes moveSlideshowRight {
+      0% { left: calc((90vw / 3) * -10 - 5rem); }
+      100% { left: 0; }
+  }
+  
   
 }

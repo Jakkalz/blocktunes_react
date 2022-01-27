@@ -214,38 +214,38 @@ function ImgGallery(){
         <section className="image-galleries">
             <div className="image-gallery">
                 {row1.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
             
                 {row1.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
             </div>
             <div className="image-gallery">
                 {row2.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
            
                 {row2.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
             </div>
             <div className="image-gallery">
                 {row3.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
            
                 {row3.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
             </div>
             <div className="image-gallery">
                 {row4.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
            
                 {row4.map(({name, tag, imgSrc}) => {
-                    return <ImgFigure key={name} caption={name} subCaption={''} src={imgSrc}/>
+                    return <ImgFigure key={name} caption={name} subCaption={tag} src={imgSrc}/>
                 })}
             </div>
 
