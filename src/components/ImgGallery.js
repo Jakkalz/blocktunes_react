@@ -5,156 +5,156 @@ function ImgGallery(){
         {
             name: 'Jak',
             tag: 'Creator/Producter',
-            imgSrc: require('../images/team/2.jpeg')          
+            imgSrc: require('../images/team/2.png')          
         },
         {
             name: 'Phoebe',
             tag: 'Lead Composer',
-            imgSrc: require('../images/team/3.jpeg')          
+            imgSrc: require('../images/team/3.png')          
         },
         {
             name: 'Marco',
             tag: 'Lead Developer',
-            imgSrc: require('../images/team/4.jpeg')          
+            imgSrc: require('../images/team/4.jpg')          
         },
         {
             name: 'Ben',
             tag: 'Music Logic Developer',
-            imgSrc: require('../images/team/5.jpeg')          
+            imgSrc: require('../images/team/5.jpg')          
         },
         {
             name: 'Alex',
             tag: 'Mixing Engineer',
-            imgSrc: require('../images/team/6.jpeg')          
+            imgSrc: require('../images/team/6.png')          
         },
         {
             name: 'John',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/7.jpeg')          
+            imgSrc: require('../images/team/7.png')          
         },
         {
             name: 'Sally',
             tag: 'Pianist',
-            imgSrc: require('../images/team/8.jpeg')          
+            imgSrc: require('../images/team/8.png')          
         },
         {
             name: 'Jack',
             tag: 'Percussions',
-            imgSrc: require('../images/team/9.jpeg')          
+            imgSrc: require('../images/team/9.jpg')          
         },  {
             name: 'Amy',
             tag: 'Vocals',
-            imgSrc: require('../images/team/10.jpeg')          
+            imgSrc: require('../images/team/10.png')          
         },
         {
             name: 'Jeremy',
             tag: 'Triangle',
-            imgSrc: require('../images/team/11.jpeg')          
+            imgSrc: require('../images/team/11.png')          
         },
         {
             name: 'Melanie',
             tag: 'Vocals',
-            imgSrc: require('../images/team/12.jpeg')          
+            imgSrc: require('../images/team/12.jpg')          
         },
         {
             name: 'Ryan',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/13.jpeg')          
+            imgSrc: require('../images/team/13.png')          
         },
         {
             name: 'Bob',
             tag: 'Violin',
-            imgSrc: require('../images/team/14.jpeg')          
+            imgSrc: require('../images/team/14.png')          
         },
         {
             name: 'Rylan',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/15.jpeg')          
+            imgSrc: require('../images/team/15.jpg')          
         },
         {
             name: 'Jake',
             tag: 'Violin',
-            imgSrc: require('../images/team/16.jpeg')          
+            imgSrc: require('../images/team/16.jpg')          
         },
         {
             name: 'Rachel',
             tag: 'Vocals',
-            imgSrc: require('../images/team/17.jpeg')          
+            imgSrc: require('../images/team/17.png')          
         },
         {
             name: 'Ricardo',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/18.jpeg')          
+            imgSrc: require('../images/team/18.jpg')          
         },
         {
             name: 'Robert',
             tag: 'Violin',
-            imgSrc: require('../images/team/19.jpeg')          
+            imgSrc: require('../images/team/19.jpg')          
         },
         {
             name: 'Daniel',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/20.jpeg')          
+            imgSrc: require('../images/team/20.png')          
         },
         {
             name: 'Harry',
             tag: 'Violin',
-            imgSrc: require('../images/team/21.jpeg')          
+            imgSrc: require('../images/team/21.jpg')          
         },
         {
             name: 'Louise',
             tag: 'Vocals',
-            imgSrc: require('../images/team/22.jpeg')          
+            imgSrc: require('../images/team/22.png')          
         },
         {
             name: 'Ryan B',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/23.jpeg')          
+            imgSrc: require('../images/team/23.png')          
         },
         {
             name: 'Bobby',
             tag: 'Violin',
-            imgSrc: require('../images/team/24.jpeg')          
+            imgSrc: require('../images/team/24.png')          
         },
         {
             name: 'Michael',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/25.jpeg')          
+            imgSrc: require('../images/team/25.jpg')          
         },
         {
             name: 'Mike',
             tag: 'Violin',
-            imgSrc: require('../images/team/26.jpeg')          
+            imgSrc: require('../images/team/26.png')          
         },
         {
             name: 'Harriet',
             tag: 'Vocals',
-            imgSrc: require('../images/team/27.jpeg')          
+            imgSrc: require('../images/team/27.jpg')          
         },
         {
             name: 'Laurence',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/28.jpeg')          
+            imgSrc: require('../images/team/28.png')          
         },
         {
             name: 'Paul',
             tag: 'Violin',
-            imgSrc: require('../images/team/29.jpeg')          
+            imgSrc: require('../images/team/29.jpg')          
         },
         {
             name: 'Owen',
             tag: 'Guitarist',
-            imgSrc: require('../images/team/30.jpeg')          
+            imgSrc: require('../images/team/30.png')          
         },
         {
             name: 'Bryan',
             tag: 'Violin',
-            imgSrc: require('../images/team/31.jpeg')          
+            imgSrc: require('../images/team/31.png')          
         },
         {
             name: 'Frances',
             tag: 'Vocals',
-            imgSrc: require('../images/team/32.jpeg')          
+            imgSrc: require('../images/team/32.jpg')          
         },
         {
             name: 'Kai',
