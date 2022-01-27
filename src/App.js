@@ -52,22 +52,22 @@ function App() {
       <main>
         <section className="splash">
           <div className="overlay">
-            <h1>The soundtrack for web3</h1>
-            <p id="whitelist-flash">The whitelist has begun.</p>
+            <h1>the soundtrack for web3</h1>
+            <p id="whitelist-flash">the whitelist has begun.</p>
           </div>
         </section>
         <section className="overview one">
           <div className="overlay">
           
-          <p class="tertiary">The most extensive music NFT to date ⚡</p>
+          <p class="tertiary">the most extensive music NFT to date ⚡</p>
 
           <p>...and a new model for quality music that can reward everyone involved</p>
 
-          <p class="secondary">The collection is formed of musical “building blocks” - instrumentals, vocals, drums etc, that can be pulled together by bespoke music logic to create a limited collection of unique tracks</p>
+          <p class="secondary">blocktunes will be formed of musical “building blocks” - instrumentals, vocals, drums etc, that can be pulled together by bespoke music logic to create a limited collection of unique tracks</p>
          </div>
         </section>
         <section class="examples">
-            <h2>Example Blocks</h2>
+            <h2>example blocks</h2>
             <div class="audio">
               <audio id="audio-1" controls class="hidden" src={require('./music/track-1.mp3')}>
               </audio>
@@ -89,9 +89,9 @@ function App() {
         </section>
         <section className="overview two">
           <div className="overlay">
-          <p class="primary">Over 30 top musicians have been busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
+          <p>over 30 top musicians have been busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
 
-          <p >This is the first collection of its kind in the NFT space... so let’s set a precedent and write some history 😎</p>
+          <p class="primary">this is the first collection of its kind in the NFT space... so let’s set a precedent and write some history 😎</p>
           </div>
         </section>
         <section className="contributors-gallery">
