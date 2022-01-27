@@ -52,7 +52,7 @@ function App() {
       <main>
         <section className="splash">
           <div className="overlay">
-            <h1>The soundtrack for web3</h1>
+            <h1>the soundtrack for web3</h1>
             <p id="whitelist-flash">the whitelist has begun.</p>
           </div>
         </section>
@@ -67,7 +67,7 @@ function App() {
          </div>
         </section>
         <section class="examples">
-            <h2>Example Blocks</h2>
+            <h2>example blocks</h2>
             <div class="audio">
               <audio id="audio-1" controls class="hidden" src={require('./music/track-1.mp3')}>
               </audio>
