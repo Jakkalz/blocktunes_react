@@ -59,11 +59,11 @@ function App() {
         <section className="overview one">
           <div className="overlay">
           
-          <p class="tertiary">the most extensive music NFT to date ⚡</p>
+          <p class="primary">the most extensive music NFT to date ⚡</p>
 
-          <p>...and a new model for quality music that can reward everyone involved</p>
+          <p class="secondary">...and a new model for quality music that can reward everyone involved</p>
 
-          <p class="secondary">blocktunes will be formed of musical “building blocks” - instrumentals, vocals, drums etc, that can be pulled together by bespoke music logic to create a limited collection of unique tracks</p>
+          <p class="primary">blocktunes will be formed of musical “building blocks” - instrumentals, vocals, drums etc, that can be pulled together by bespoke music logic to create a limited collection of unique tracks</p>
          </div>
         </section>
         <section class="examples">
@@ -89,9 +89,9 @@ function App() {
         </section>
         <section className="overview two">
           <div className="overlay">
-          <p>over 30 top musicians have been busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
+          <p class="primary">over 30 top musicians have been busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
 
-          <p class="primary">this is the first collection of its kind in the NFT space... so let’s set a precedent and write some history 😎</p>
+          <p class="secondary">this is the first collection of its kind in the NFT space... so let’s set a precedent and write some history 😎</p>
           </div>
         </section>
         <section className="contributors-gallery">
