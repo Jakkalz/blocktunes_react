@@ -53,7 +53,7 @@ function App() {
         <section className="splash">
           <div className="overlay">
             <h1>the soundtrack for web3</h1>
-            <p id="whitelist-flash">the whitelist has begun.</p>
+            <p id="whitelist-flash">the whitelist has begun</p>
           </div>
         </section>
         <section className="overview one">
@@ -89,9 +89,9 @@ function App() {
         </section>
         <section className="overview two">
           <div className="overlay">
-          <p class="primary">over 30 top musicians have been busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
+          <p class="primary">over thirty top musicians are busy in the studio recording and composing vocals and instrumentals: the musical "traits" from which buyers can mint their very own unique blocktune 🎧</p>
 
-          <p class="secondary">this is the first collection of its kind in the NFT space... so let’s set a precedent and write some history 😎</p>
+          <p class="secondary">this will be the most extensive music NFT to date... so let’s set a precedent and write some history 😎</p>
           </div>
         </section>
         <section className="contributors-gallery">
