@@ -414,6 +414,7 @@ footer p {
     white-space: nowrap;
     position: relative;
     height: unset;
+
   }
 
   .contributors-gallery .overlay {
@@ -458,7 +459,7 @@ footer p {
     justify-content: start;
     align-items: center;
     position: relative;
-
+    width: 375px;
   }
 
   .image-gallery img {
@@ -470,30 +471,30 @@ footer p {
   
   @keyframes moveSlideshow {
     0% { left: 0; }
-    100% { left: calc((90vw / 3) * -10 - 5rem); }
+    100% { left: calc((90vw / 3) * -10 - 5.25rem); }
   }
 
   @-webkit-keyframes moveSlideshow {
     0% { left: 0; }
-    100% { left: calc((90vw / 3) * -10 - 5rem); }
+    100% { left: calc((90vw / 3) * -10 - 5.25rem); }
   }
   @-moz-keyframes moveSlideshow {
       0% { left: 0; }
-      100% { left: calc((90vw / 3) * -10 - 5rem); }
+      100% { left: calc((90vw / 3) * -10 - 5.25rem); }
   }
 
   
   @keyframes moveSlideshowRight {
-    0% { left: calc((90vw / 3) * -10 - 5rem ); }
+    0% { left: calc((90vw / 3) * -10 - 5.25rem); }
     100% { left: 0; }
   }
 
   @-webkit-keyframes moveSlideshowRight {
-    0% { left: calc((90vw / 3) * -10 - 5rem); }
+    0% { left: calc((90vw / 3) * -10 - 5.25rem); }
     100% { left: 0; }
   }
   @-moz-keyframes moveSlideshowRight {
-      0% { left: calc((90vw / 3) * -10 - 5rem); }
+      0% { left: calc((90vw / 3) * -10 - 5.25rem); }
       100% { left: 0; }
   }
   
