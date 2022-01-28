@@ -3,203 +3,203 @@ import ImgFigure from "./ImgFigure";
 function ImgGallery(){
     const contributors = [
         {
-            name: 'Jak',
-            tag: 'Creator/Producter',
-            imgSrc: require('../images/team/2.png')          
+            name: 'ike',
+            tag: 'bass',
+            imgSrc: require('../images/team/36.jpg')          
         },
         {
-            name: 'Phoebe',
-            tag: 'Lead Composer',
-            imgSrc: require('../images/team/3.png')          
-        },
-        {
-            name: 'Marco',
-            tag: 'Lead Developer',
-            imgSrc: require('../images/team/4.jpg')          
-        },
-        {
-            name: 'Ben',
-            tag: 'Music Logic Developer',
-            imgSrc: require('../images/team/5.jpg')          
-        },
-        {
-            name: 'Alex',
-            tag: 'Mixing Engineer',
-            imgSrc: require('../images/team/6.png')          
-        },
-        {
-            name: 'John',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/7.jpg')          
-        },
-        {
-            name: 'Sally',
-            tag: 'Pianist',
-            imgSrc: require('../images/team/8.png')          
-        },
-        {
-            name: 'Jack',
-            tag: 'Percussions',
-            imgSrc: require('../images/team/9.jpg')          
-        },  {
-            name: 'Amy',
-            tag: 'Vocals',
-            imgSrc: require('../images/team/10.jpg')          
-        },
-        {
-            name: 'Jeremy',
-            tag: 'Triangle',
-            imgSrc: require('../images/team/11.png')          
-        },
-        {
-            name: 'Melanie',
-            tag: 'Vocals',
-            imgSrc: require('../images/team/12.jpg')          
-        },
-        {
-            name: 'Ryan',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/13.png')          
-        },
-        {
-            name: 'Bob',
-            tag: 'Violin',
-            imgSrc: require('../images/team/14.png')          
-        },
-        {
-            name: 'Rylan',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/15.jpg')          
-        },
-        {
-            name: 'Jake',
-            tag: 'Violin',
-            imgSrc: require('../images/team/16.jpg')          
-        },
-        {
-            name: 'Rachel',
-            tag: 'Vocals',
-            imgSrc: require('../images/team/17.png')          
-        },
-        {
-            name: 'Ricardo',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/18.jpg')          
-        },
-        {
-            name: 'Robert',
-            tag: 'Violin',
-            imgSrc: require('../images/team/19.jpg')          
-        },
-        {
-            name: 'Daniel',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/20.png')          
-        },
-        {
-            name: 'Harry',
-            tag: 'Violin',
-            imgSrc: require('../images/team/21.jpg')          
-        },
-        {
-            name: 'Louise',
-            tag: 'Vocals',
-            imgSrc: require('../images/team/22.jpg')          
-        },
-        {
-            name: 'Ryan B',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/23.png')          
-        },
-        {
-            name: 'Bobby',
-            tag: 'Violin',
+            name: 'nikita',
+            tag: 'vocals',
             imgSrc: require('../images/team/24.png')          
         },
         {
-            name: 'Michael',
-            tag: 'Guitarist',
+            name: 'marco',
+            tag: 'founder/lead developer',
+            imgSrc: require('../images/team/43.jpg')          
+        },
+        {
+            name: 'garry',
+            tag: 'vocals/producer',
+            imgSrc: require('../images/team/30.png')          
+        },
+        {
+            name: 'reeves',
+            tag: 'guitar/producer',
+            imgSrc: require('../images/team/5.jpg')          
+        },
+        {
+            name: 'beddiss',
+            tag: 'drums',
+            imgSrc: require('../images/team/11.png')          
+        },
+        {
+            name: 'rich',
+            tag: 'producer',
+            imgSrc: require('../images/team/41.png')          
+        },
+        {
+            name: 'dylan-s',
+            tag: 'producer',
+            imgSrc: require('../images/team/16.jpg')          
+        },  {
+            name: 'hopkin',
+            tag: 'vocals',
             imgSrc: require('../images/team/25.jpg')          
         },
         {
-            name: 'Mike',
-            tag: 'Violin',
-            imgSrc: require('../images/team/26.png')          
+            name: 'chris',
+            tag: 'trombone',
+            imgSrc: require('../images/team/22.png')          
         },
         {
-            name: 'Harriet',
-            tag: 'Vocals',
-            imgSrc: require('../images/team/27.jpg')          
+            name: 'charlie',
+            tag: 'rap',
+            imgSrc: require('../images/team/15.jpg')          
         },
         {
-            name: 'Laurence',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/28.jpg')          
+            name: 'women in love',
+            tag: 'vocals',
+            imgSrc: require('../images/team/9.jpg')          
         },
         {
-            name: 'Paul',
-            tag: 'Violin',
-            imgSrc: require('../images/team/29.jpg')          
+            name: 'justin',
+            tag: 'instrumentalist',
+            imgSrc: require('../images/team/21.jpg')          
         },
         {
-            name: 'Owen',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/30.jpg')          
+            name: 'phoebe garratt',
+            tag: 'founder/lead composer',
+            imgSrc: require('../images/team/3.png')          
         },
         {
-            name: 'Bryan',
-            tag: 'Violin',
-            imgSrc: require('../images/team/31.png')          
+            name: 'mandy groves',
+            tag: 'vocals',
+            imgSrc: require('../images/team/12.jpg')          
         },
         {
-            name: 'Frances',
-            tag: 'Vocals',
-            imgSrc: require('../images/team/32.jpg')          
+            name: 'ben babik',
+            tag: 'music logic developer',
+            imgSrc: require('../images/team/38.png')          
         },
         {
-            name: 'Kai',
-            tag: 'Guitarist',
+            name: 'al',
+            tag: 'lead producer/master mixer',
             imgSrc: require('../images/team/1.jpg')          
         },
         {
-            name: 'Juri',
-            tag: 'Violin',
-            imgSrc: require('../images/team/alex.jpeg')          
+            name: '(0)171',
+            tag: 'vocals',
+            imgSrc: require('../images/team/7.png')          
         },
         {
-            name: 'Evan',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/marco.jpeg')          
+            name: 'dimi',
+            tag: 'producer',
+            imgSrc: require('../images/team/23.png')          
         },
         {
-            name: 'Will',
-            tag: 'Violin',
-            imgSrc: require('../images/team/alex.jpeg')          
+            name: 'harry',
+            tag: 'guitar',
+            imgSrc: require('../images/team/8.png')          
         },
         {
-            name: 'Akexandra',
-            tag: 'Vocals',
-            imgSrc: require('../images/team/phoebe.jpeg')          
+            name: 'fig',
+            tag: 'rap',
+            imgSrc: require('../images/team/18.jpg')          
         },
         {
-            name: 'Adam',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/marco.jpeg')          
+            name: 'myth',
+            tag: 'producer',
+            imgSrc: require('../images/team/37.jpg')          
         },
         {
-            name: 'Noah',
-            tag: 'Violin',
-            imgSrc: require('../images/team/alex.jpeg')          
+            name: 'gambo',
+            tag: 'founder/creator',
+            imgSrc: require('../images/team/20.png')          
         },
         {
-            name: 'Liam',
-            tag: 'Guitarist',
-            imgSrc: require('../images/team/marco.jpeg')          
+            name: 'T.O.L.D.',
+            tag: 'band',
+            imgSrc: require('../images/team/34.jpg')          
         },
         {
-            name: 'Marvin',
-            tag: 'Violin',
-            imgSrc: require('../images/team/alex.jpeg')          
+            name: 'damon',
+            tag: 'sax',
+            imgSrc: require('../images/team/17.png')          
+        },
+        {
+            name: 'rhianna audermars',
+            tag: 'rap',
+            imgSrc: require('../images/team/6.png')          
+        },
+        {
+            name: 'ally mcdougal',
+            tag: 'drums',
+            imgSrc: require('../images/team/13.png')          
+        },
+        {
+            name: 'ghostchant',
+            tag: 'producer',
+            imgSrc: require('../images/team/10.png')          
+        },
+        {
+            name: 'oli james',
+            tag: 'vocals/producer',
+            imgSrc: require('../images/team/35.jpg')          
+        },
+        {
+            name: 'DXSH KXNE',
+            tag: 'rap',
+            imgSrc: require('../images/team/28.png')          
+        },
+        {
+            name: 'schlechte',
+            tag: 'producer',
+            imgSrc: require('../images/team/31.png')          
+        },
+        {
+            name: 'monnette',
+            tag: 'vocals',
+            imgSrc: require('../images/team/2.png')          
+        },
+        {
+            name: 'dj kenny',
+            tag: 'producer',
+            imgSrc: require('../images/team/26.png')          
+        },
+        {
+            name: 'phbs',
+            tag: 'keys',
+            imgSrc: require('../images/team/27.jpg')          
+        },
+        {
+            name: 'CH',
+            tag: 'guitar',
+            imgSrc: require('../images/team/4.jpg')          
+        },
+        {
+            name: 'eugenius musica',
+            tag: 'rap/producer',
+            imgSrc: require('../images/team/33.jpg')          
+        },
+        {
+            name: 'jak',
+            tag: 'the gutter butter',
+            imgSrc: require('../images/team/42.jpg')          
+        },
+        {
+            name: 'calyssa',
+            tag: 'violin',
+            imgSrc: require('../images/team/40.jpg')          
+        },
+        {
+            name: 'nina rose',
+            tag: 'vocals/producer',
+            imgSrc: require('../images/team/19.jpg')          
+        },
+        {
+            name: 'alexmikethemic',
+            tag: 'rap',
+            imgSrc: require('../images/team/29.jpeg')          
         },
         
     ]
