@@ -199,7 +199,7 @@ function ImgGallery(){
         {
             name: 'alexmikethemic',
             tag: 'rap',
-            imgSrc: require('../images/team/29.jpeg')          
+            imgSrc: require('../images/team/29.jpg')          
         },
         
     ]
