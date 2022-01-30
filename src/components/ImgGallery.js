@@ -102,9 +102,9 @@ function ImgGallery(){
             imgSrc: require('../images/team/8.png')          
         },
         {
-            name: 'fig',
-            tag: 'rap',
-            imgSrc: require('../images/team/18.jpg')          
+            name: 'matthew (the molotovs)',
+            tag: 'vocals/guitar',
+            imgSrc: require('../images/team/8.png')          
         },
         {
             name: 'myth',
