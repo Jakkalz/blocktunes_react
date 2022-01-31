@@ -53,7 +53,7 @@ function App() {
         <section className="splash">
           <div className="overlay">
             <h1>the soundtrack for web3</h1>
-            <p id="whitelist-flash">the whitelist has begun</p>
+            <p id="whitelist-flash">the mintlist has begun</p>
           </div>
         </section>
         <section className="overview one">
