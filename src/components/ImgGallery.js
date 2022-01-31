@@ -89,7 +89,7 @@ function ImgGallery(){
         {
             name: '(0)171',
             tag: 'vocals',
-            imgSrc: require('../images/team/7.png')          
+            imgSrc: require('../images/team/7.jpg')          
         },
         {
             name: 'dimi',
