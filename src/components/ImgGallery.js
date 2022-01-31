@@ -20,7 +20,7 @@ function ImgGallery(){
         {
             name: 'garry',
             tag: 'vocals/producer',
-            imgSrc: require('../images/team/30.png')          
+            imgSrc: require('../images/team/30.jpg')          
         },
         {
             name: 'reeves',
@@ -49,7 +49,7 @@ function ImgGallery(){
         {
             name: 'chris',
             tag: 'trombone',
-            imgSrc: require('../images/team/22.png')          
+            imgSrc: require('../images/team/22.jpg')          
         },
         {
             name: 'charlie',
@@ -139,7 +139,7 @@ function ImgGallery(){
         {
             name: 'ghostchant',
             tag: 'producer',
-            imgSrc: require('../images/team/10.png')          
+            imgSrc: require('../images/team/10.jpg')          
         },
         {
             name: 'oli james',
@@ -149,7 +149,7 @@ function ImgGallery(){
         {
             name: 'DXSH KXNE',
             tag: 'rap',
-            imgSrc: require('../images/team/28.png')          
+            imgSrc: require('../images/team/28.jpg')          
         },
         {
             name: 'schlechte',
@@ -189,7 +189,7 @@ function ImgGallery(){
         {
             name: 'calyssa',
             tag: 'violin',
-            imgSrc: require('../images/team/40.jpg')          
+            imgSrc: require('../images/team/40.png')          
         },
         {
             name: 'nina rose',
