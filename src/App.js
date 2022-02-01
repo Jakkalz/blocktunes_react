@@ -60,7 +60,7 @@ function App() {
           <div className="overlay">
             <h1>the soundtrack for web3</h1>
             <Button label='Mint Track'/>
-            <p id="whitelist-flash">the whitelist has begun</p>
+            <p id="whitelist-flash">the mintlist has begun</p>
           </div>
         </section>
         <section className="overview one">
