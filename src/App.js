@@ -1,9 +1,11 @@
 import SocialIcon from "./components/SocialIcon";
+import Button from "./components/PrimaryButton";
+import ImgGallery from "./components/ImgGallery";
 import { gsap } from 'gsap';
 import { useEffect } from "react";
 
 import "./App.css";
-import ImgGallery from "./components/ImgGallery";
+
 
 function App() {
 
@@ -19,8 +21,11 @@ function App() {
   const playAudio = (e) => {
     const id = e.target.dataset.audioid;
     const audio = document.getElementById(id);
+    const audioButtons = document.querySelectorAll(`.pause`)
+    audioButtons.forEach(button => button.click());
     audio.play()
 
+    
     document.querySelectorAll(`.play[data-audioid="${id}"]`)[0].classList.add('hidden');
     document.querySelectorAll(`.pause[data-audioid="${id}"]`)[0].classList.remove('hidden');
   }
@@ -47,12 +52,14 @@ function App() {
         <div className="contact-container">
           <SocialIcon link={"https://www.instagram.com/blocktunesnft/?hl=en"} imgSrc={require("./images/instagram.svg").default} />
           <SocialIcon link={"https://twitter.com/blocktunesnft"} imgSrc={require("./images/twitter.svg").default} />
+          <Button label='Connect Wallet' />
         </div>
       </header>
       <main>
         <section className="splash">
           <div className="overlay">
             <h1>the soundtrack for web3</h1>
+            <Button label='Mint Track'/>
             <p id="whitelist-flash">the whitelist has begun</p>
           </div>
         </section>
